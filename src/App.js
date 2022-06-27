@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import PizzaComponent from './components/PizzaComponent/PizzaComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <PizzaComponent name="sausage n ray" price="8.99"/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. Transcendent communication is important.
         </p>
         <a
           className="App-link"
