@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import { useState } from 'react';
 import './App.css';
-import Timer from './components/Timer';
-// import Timer2 from './components/Timer2';
+//import Timer from './components/Timer';
+import Timer2 from './components/Timer2';
 // import PizzaComponent from './components/PizzaComponent/PizzaComponent';
 
 function App() {
@@ -21,9 +21,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <PizzaComponent name="sausage n ray" price="8.99"/> */}
-        {showTimer ? <Timer /> : <div>No Timer</div>}
+        {/* {showTimer ? <Timer /> : <div>No Timer</div>} */}
         {/* <Timer /> */}
-        <button onClick={() => {setShowTimer(false)}}>Hide</button>
+        {/* <button onClick={() => {setShowTimer(false)}}>Hide</button> */}
+        <Timer2 />
         <a
           className="App-link"
           href="https://reactjs.org"

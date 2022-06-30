@@ -6,15 +6,15 @@ class Timer extends React.Component {
         this.state = {
             time: 0
         }
-        setInterval(()=> {
-            this.incrementTimer()
-        },1000)
-
-        console.log('constructor called')
+        console.log('constructor called');
     }
 
     componentDidMount() {
-        console.log('component created')
+        console.log('component created');
+
+        setInterval(()=> {
+            this.incrementTimer()
+        },1000)
     }
 
     componentWillUnmount() {
@@ -22,7 +22,7 @@ class Timer extends React.Component {
     }
 
     componentDidUpdate() {
-        console.log('something changed')
+        console.log('something changed');
     }
 
     incrementTimer() {
